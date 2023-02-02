@@ -1,5 +1,145 @@
-.App {
+.container {
+  padding: 30px 200px;
+  min-height: 100vh;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: #282c34;
+  border-bottom: white solid 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.navItem {
+  width: 100px;
+  text-decoration: none;
+  height: 50px;
+  line-height: 50px;
+  color: white;
   text-align: center;
+}
+
+.active,
+.navItem:hover {
+  background-color: white;
+  color: #282c34;
+}
+
+h1 {
+  margin-top: 70px;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.lyricPlayCard {
+  padding: 10px 30px;
+  margin: 30px 30px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.lyricPlayCard button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.lyricPlayCard img {
+  cursor: pointer;
+  height: 75px;
+  background-color: #282c34;
+}
+
+.btns {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ansBtn {
+  cursor: pointer;
+  height: 60px;
+  width: 100px;
+  color: white;
+  font-size: 30px;
+  border: 2px solid #fff !important;
+  border-radius: 5px;
+}
+
+.category:hover,
+.ansBtn:hover,
+.lyricPlayCard img:hover {
+  background: gray;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 50px;
+  margin: 5px 0px
+}
+
+.ans {
+  color: #1aa260;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.goldBrain button,
+.mutualUnderstanding button,
+.lips button {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 50px;
+  color: white;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.goldBrain button:hover,
+.mutualUnderstanding button:hover,
+.lips button:hover {
+  background: gray;
+}
+
+.questions {
+  font-size: 50px;
+}
+
+.question {
+  text-align: center;
+  font-size: 100px;
+}
+
+.questions div {
+  display: inline-block;
+  margin: 5px;
+}
+
+.score,
+.category {
+  text-align: center;
+  font-size: 100px;
+}
+
+
+.category {
+  cursor: pointer;
+}
+
+.footer {
+  height: 400px;
 }
 
 .App-logo {
@@ -16,12 +156,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
 .App-link {
@@ -32,6 +167,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
