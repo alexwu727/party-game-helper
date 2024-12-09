@@ -21,7 +21,7 @@ function Lips() {
             <h2>隊伍派出兩人，一個為猜題的人，此人必須戴上降噪耳機並且聽音樂大過外界聲音。另一個是要利用嘴形讓猜題者知道題目。限時兩分鐘。</h2>
             <div className='score'>{score}</div>
             <div className='btns'>
-                <button onClick={correct}>Currect</button>
+                <button onClick={correct}>Correct</button>
                 <button onClick={getNext}>Skip</button>
                 <button onClick={reset}>Reset Score</button>
             </div>
