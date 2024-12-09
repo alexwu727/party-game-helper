@@ -87,7 +87,7 @@ const questions = [
     {
         id: 12,
         ans: "江南",
-        lyrics: ["搖圈圈圓圓圈圈 天天年年天天 的我", "深深看你的臉 生氣的溫柔 埋怨的溫柔的臉"],
+        lyrics: ["圈圈圓圓圈圈 天天年年天天 的我", "深深看你的臉 生氣的溫柔 埋怨的溫柔的臉"],
         artist: "林俊傑",
         english: "River South"
     },
