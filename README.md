@@ -1,6 +1,6 @@
 # party-game-helper
 
-This is a web app for playing party games. It is designed to be used on a large screen, such as a TV or projector. Currently we have five stages and each stage has a different game. The app is designed to be simple and easy to use. It is suitable for parties, gatherings, and other events.
+This is a web app for playing party games. Currently we have five stages and each stage has a different game. The app is designed to be simple and easy to use. It is suitable for parties, gatherings, and other events.
 
 Since I got lots of fun when playing this with my friends from different groups and got really good feedback. I decided to share it with more people. I hope you will enjoy it as well. And I am planning to add more games and features in the future. Also provide more customization options for users.
 
@@ -8,7 +8,7 @@ If you have any suggestions or feedback, please feel free to contact me.
 
 ---
 
-這是一個用於玩派對遊戲的網頁應用程式。它設計用於在大屏幕上使用，例如電視或投影機。目前有五個階段，每個階段都有不同的遊戲。該應用程式設計簡單易用。適合派對、聚會和其他活動。
+這是一個用於玩派對遊戲的網頁應用程式。目前有五個階段，每個階段都有不同的遊戲。該應用程式設計簡單易用。適合派對、聚會和其他活動。
 
 由於我和來自不同團體的朋友一起玩這個遊戲時玩得很開心，並且得到了很好的反饋。我決定與更多人分享。希望您也會喜歡。我計劃在未來添加更多遊戲和功能。並為用戶提供更多自定義選項。
 
