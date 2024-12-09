@@ -10,12 +10,14 @@ If you have any suggestions or feedback, please feel free to contact me.
 
 這是一個用於玩派對遊戲的網頁應用程式。目前有五個階段，每個階段都有不同的遊戲。該應用程式設計簡單易用。適合派對、聚會和其他活動。
 
-由於我和來自不同團體的朋友一起玩這個遊戲時玩得很開心，並且得到了很好的反饋。我決定與更多人分享。希望您也會喜歡。我計劃在未來添加更多遊戲和功能。並為用戶提供更多自定義選項。
+我和朋友們一起玩這個遊戲時玩得很開心，並得到了很好的反應。我決定與更多人分享。希望您也會喜歡。我計劃在未來添加更多遊戲和功能。並為用戶提供更多自定義選項。
 
 如果您有任何建議或反饋，請隨時與我聯繫。
 
 
 ## Start app
+
+Here are two methods to start the app. One is to run locally, and the other is to provide a temporary link for those who are not familiar with the terminal or do not have Node.js installed.
 
 ### Method 1: Run locally
 
@@ -62,7 +64,9 @@ Please use this [Google Slide](https://docs.google.com/presentation/d/1UkJkKT5To
 
 ## 啟動應用程式
 
-### 方法一：在本地執行
+這裡提供兩種方法來啟動應用程式。一個是在本機執行，另一個則是提供給對終端不熟悉或未安裝 Node.js 的人使用，作者將提供臨時連結。
+
+### 方法一：在本機執行
 
 1. 安裝 Node.js
 
@@ -74,11 +78,13 @@ Please use this [Google Slide](https://docs.google.com/presentation/d/1UkJkKT5To
 
 2. 獲取代碼
 
-    - clone 這個 repository
+    - 講整個專案複製到本地 (clone repository)
 
     或
 
     - 下載 zip 文件並解壓縮。
+
+        點選此頁面右上角的綠色按鈕 "Code"，然後選擇 "Download ZIP"。
 
 3. 開始應用程式
 
