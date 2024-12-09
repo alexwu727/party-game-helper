@@ -19,6 +19,8 @@ If you have any suggestions or feedback, please feel free to contact me.
 
 Here are two methods to start the app. One is to run locally, and the other is to provide a temporary link for those who are not familiar with the terminal or do not have Node.js installed.
 
+Please use this [Google Slide](https://docs.google.com/presentation/d/1UkJkKT5To5sDjlzpEYtGAS5nG3vmYIOPt1gjE5MusS4/edit?usp=sharing) in conjunction.
+
 ### Method 1: Run locally
 
 1. Install Node.js
@@ -58,13 +60,15 @@ Here are two methods to start the app. One is to run locally, and the other is t
 If you are not familiar with terminal or your computer does not have Node.js installed, please contact the author.
 The author will temporarily host the server on CodeSandbox and provide a link for you to use directly.
 
-Please use this [Google Slide](https://docs.google.com/presentation/d/1UkJkKT5To5sDjlzpEYtGAS5nG3vmYIOPt1gjE5MusS4/edit?usp=sharing) in conjunction.
+This method requires an internet connection, please make sure your internet connection is stable.
 
 ---
 
 ## 啟動應用程式
 
 這裡提供兩種方法來啟動應用程式。一個是在本機執行，另一個則是提供給對終端不熟悉或未安裝 Node.js 的人使用，作者將提供臨時連結。
+
+請搭配使用這個[Google Slide](https://docs.google.com/presentation/d/1UkJkKT5To5sDjlzpEYtGAS5nG3vmYIOPt1gjE5MusS4/edit?usp=sharing)。
 
 ### 方法一：在本機執行
 
@@ -108,4 +112,4 @@ Please use this [Google Slide](https://docs.google.com/presentation/d/1UkJkKT5To
 如果你不熟悉 terminal 或你的電腦未安裝 Node.js，請聯絡作者。
 作者將使用 CodeSandbox 暫時架設伺服器，並提供一個連結供你直接使用。
 
-請搭配使用這個[Google Slide](https://docs.google.com/presentation/d/1UkJkKT5To5sDjlzpEYtGAS5nG3vmYIOPt1gjE5MusS4/edit?usp=sharing)。
+此方式需要網路連線，請確保你的網路連線穩定。
