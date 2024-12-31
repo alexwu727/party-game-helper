@@ -14,11 +14,11 @@ function LyricPlayCard({ question }) {
         e.preventDefault();
         audio.pause();
     }
-    const showL = (e) => {
-        setShowLyrics(true)
+    const toggleLyrics = (e) => {
+        setShowLyrics((showLyrics) => !showLyrics)
     }
-    const showA = (e) => {
-        setShowAnswer(true)
+    const toggleAns = (e) => {
+        setShowAnswer((showAnswer) => !showAnswer)
     }
 
     return (
@@ -31,10 +31,10 @@ function LyricPlayCard({ question }) {
                 <button onClick={pause}>
                     <img src='pause.png' alt='pause'></img>
                 </button>
-                <button onClick={showL}>
+                <button onClick={toggleLyrics}>
                     <img src='show.png' alt='show'></img>
                 </button>
-                <button onClick={showA} className="ansBtn">
+                <button onClick={toggleAns} className="ansBtn">
                     Ans
                 </button>
             </div>
@@ -42,7 +42,7 @@ function LyricPlayCard({ question }) {
                 {showLyrics ? <Lyrics l={question.lyrics} /> : null}
             </p>
             <div className='ans'>
-                {showAnswer && showLyrics ? `${question.ans} - ${question.artist}` : null}
+                {showAnswer ? `${question.ans} - ${question.artist}` : null}
             </div>
         </div>
     )
